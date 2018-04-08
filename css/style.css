@@ -1,0 +1,96 @@
+html{
+  margin: 0 auto;
+}
+.navbar a{
+  height: 30px;
+  color: grey;
+  text-decoration: none;
+  padding: 0.4em;
+}
+
+.navbar{
+  text-align: right;
+}
+
+.navbar button{
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  border-radius: 0.4em;
+  height: 2.5em;
+}
+
+.img{
+  max-height: 1.5em;
+  width: auto;
+  display: inline-block;
+}
+
+.Logo img{
+  max-height: 15em;
+  position: relative;
+  top: 6em;
+  left: 30em;
+}
+
+.bar input{
+  position: relative;
+  width: 40em;
+  top: 3em;
+  left: 30em;
+  height: 2.5em;
+
+}
+
+.bar img{
+  max-height: 1.8em;
+  position: relative;
+  top: 3.1em;
+  left: 22.8em;
+}
+
+.buttons button{
+  position: relative;
+  background-color: lightgrey;
+  border-color: lightgrey;
+  color: black;
+  top: 5em;
+  left: 35em;
+  height: 2.5em;
+  width: 12em;
+  margin-left: 1.5em;
+}
+
+.buttons p{
+  position: absolute;
+  top: 28em;
+  left: 31.5em;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: lightgrey;
+  max-width: inherit;
+  color: grey;
+  padding: 0 0.7em;
+}
+
+footer .bottom .right{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+footer .bottom .left{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+footer .bottom a{
+  text-decoration: none;
+  color: grey;
+  padding: 0 0.7em;
+}
